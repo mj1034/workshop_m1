@@ -1,0 +1,22 @@
+import.java.io.*;
+class rect
+{
+int length,width;
+rect(int x,int y)
+{
+length=x;
+width=y;
+}
+int rarea()
+{
+return(length*width);
+}}
+class con
+{
+public static void main(String args[])
+{
+int area1;
+rect r1=new rect(2,3);
+area1=r1.rarea();
+System.out.println("area of rect is"+area1);}
+}
